@@ -1,0 +1,59 @@
+.booking-page {
+  @apply min-h-screen bg-gray-50 py-12;
+}
+
+.booking-container {
+  @apply max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8;
+}
+
+.booking-title {
+  @apply text-2xl font-bold text-gray-900 mb-8 text-center;
+}
+
+.booking-form {
+  @apply space-y-6;
+}
+
+.form-group {
+  @apply space-y-1;
+}
+
+.form-group label {
+  @apply block text-sm font-medium text-gray-700;
+}
+
+.input-wrapper {
+  @apply relative rounded-md shadow-sm;
+}
+
+.input-icon {
+  @apply absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400;
+}
+
+.input-wrapper input {
+  @apply block w-full pl-10 pr-3 py-2 sm:text-sm border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500;
+}
+
+.booking-summary {
+  @apply mt-8 p-6 bg-gray-50 rounded-lg;
+}
+
+.summary-title {
+  @apply text-lg font-semibold text-gray-900 mb-4;
+}
+
+.summary-details {
+  @apply space-y-3;
+}
+
+.summary-item {
+  @apply flex items-center text-gray-600;
+}
+
+.summary-icon {
+  @apply h-5 w-5 text-gray-400 mr-2;
+}
+
+.submit-button {
+  @apply w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mt-8;
+}

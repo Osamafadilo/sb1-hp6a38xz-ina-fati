@@ -1,0 +1,15 @@
+.layout {
+  @apply min-h-screen flex flex-col;
+}
+
+.main-content {
+  @apply flex-grow;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}

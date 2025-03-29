@@ -1,0 +1,39 @@
+.footer {
+  @apply bg-gray-800 text-white;
+}
+
+.footer-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
+}
+
+.footer-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-8;
+}
+
+.footer-section {
+  @apply space-y-4;
+}
+
+.footer-title {
+  @apply text-lg font-semibold mb-4;
+}
+
+.footer-description {
+  @apply text-gray-400;
+}
+
+.footer-links {
+  @apply space-y-2;
+}
+
+.footer-link {
+  @apply text-gray-400 hover:text-white;
+}
+
+.footer-address {
+  @apply text-gray-400 not-italic;
+}
+
+.footer-bottom {
+  @apply mt-8 pt-8 border-t border-gray-700 text-center text-gray-400;
+}

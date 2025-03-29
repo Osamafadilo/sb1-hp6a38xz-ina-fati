@@ -1,0 +1,29 @@
+Frontend Route,Request Type,Backend Endpoint,Description,Requirements
+Authentication,,,,
+/auth/login,POST,/api/users/login,User login,Email and password
+/auth/register,POST,/api/users,Create new account,Name email and password
+/auth/logout,POST,/api/auth/logout,User logout,Token
+/profile,GET,/api/users/profile,Get user profile,Token
+Accommodations,,,,
+/accommodations,GET,/api/accommodations,List all accommodations,-
+/accommodation/:id,GET,/api/accommodations/:id,Get accommodation details,-
+/dashboard/bookings,GET,/api/bookings,List all bookings,Token
+Cart & Orders,,,,
+/cart,GET,/api/cart,Get cart contents,Token
+/cart/add,POST,/api/cart,Add item to cart,Token
+/checkout,POST,/api/orders,Create new order,Token
+Files & Images,,,,
+/upload,POST,/api/files,Upload file,Token File
+/files/:id,GET,/api/files/:id,Download file,Token
+Reviews,,,,
+/reviews,GET,/api/reviews,List all reviews,-
+/reviews/add,POST,/api/reviews,Add new review,Token
+Environment Variables,,,,
+NODE_ENV,Config,development,Environment mode,-
+PORT,Config,5000,Backend port,-
+MONGODB_URI,Config,mongodb://127.0.0.1:27017/dev_db,Database connection,-
+JWT_SECRET,Config,your_jwt_secret,JWT signing key,-
+CLIENT_URL,Config,http://localhost:5173,Frontend URL,-
+GOOGLE_CLOUD_PROJECT_ID,Config,your-project-id,GCP project ID,-
+GOOGLE_CLOUD_BUCKET_NAME,Config,your-bucket-name,GCS bucket name,-
+VITE_API_URL,Config,http://localhost:5000,Backend API URL,-

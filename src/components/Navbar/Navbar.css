@@ -1,0 +1,51 @@
+.navbar {
+  @apply bg-white shadow-lg;
+}
+
+.navbar-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.navbar-content {
+  @apply flex justify-between h-16;
+}
+
+.navbar-brand {
+  @apply flex items-center;
+}
+
+.brand-link {
+  @apply flex-shrink-0 flex items-center;
+}
+
+.brand-icon {
+  @apply h-8 w-8 text-indigo-600;
+}
+
+.brand-text {
+  @apply mx-2 font-bold text-xl text-gray-900;
+}
+
+.navbar-menu {
+  @apply flex items-center;
+}
+
+.navbar-links {
+  @apply hidden sm:ml-6 sm:flex sm:space-x-8;
+}
+
+.nav-link {
+  @apply text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium;
+}
+
+.navbar-actions {
+  @apply flex items-center space-x-4;
+}
+
+.action-button {
+  @apply p-2 rounded-full hover:bg-gray-100;
+}
+
+.action-icon {
+  @apply h-5 w-5 text-gray-600;
+}

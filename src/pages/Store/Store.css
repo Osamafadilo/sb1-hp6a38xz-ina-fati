@@ -1,0 +1,75 @@
+.store-container {
+  @apply container mx-auto px-4 py-8;
+}
+
+.search-section {
+  @apply mb-8;
+}
+
+.search-bar {
+  @apply flex flex-col md:flex-row gap-4;
+}
+
+.search-input-wrapper {
+  @apply flex-1 relative;
+}
+
+.search-icon {
+  @apply absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5;
+}
+
+.categories-section {
+  @apply mb-8 overflow-x-auto;
+}
+
+.categories-list {
+  @apply flex gap-2 pb-2;
+}
+
+.products-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.product-card {
+  @apply bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300;
+}
+
+.product-image {
+  @apply w-full h-48 object-cover;
+}
+
+.product-content {
+  @apply p-4;
+}
+
+.product-title {
+  @apply font-semibold text-lg mb-1;
+}
+
+.product-description {
+  @apply text-gray-600 text-sm mb-2;
+}
+
+.product-rating {
+  @apply flex items-center gap-1 mb-3;
+}
+
+.product-price-section {
+  @apply flex items-center justify-between;
+}
+
+.product-price {
+  @apply font-bold text-lg;
+}
+
+.provider-name {
+  @apply mt-2 text-sm text-gray-500;
+}
+
+.no-results {
+  @apply text-center py-12;
+}
+
+.no-results-text {
+  @apply text-gray-500;
+}
